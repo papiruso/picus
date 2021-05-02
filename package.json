@@ -30,6 +30,9 @@
   "bugs": {
     "url": "https://github.com/uncodegem/picus/issues"
   },
+  "contributors": [
+    "Uncodegem (https://uncodegem.com/)"
+  ],
   "homepage": "https://github.com/uncodegem/picus#readme",
   "dependencies": {}
 }
