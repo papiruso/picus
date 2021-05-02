@@ -1,6 +1,6 @@
 # Picus
 
-[![N|Solid](https://uncodegem.com/picus/banner.png)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://uncodegem.com/picus/banner.png)](https://uncodegem.com/picus)
 
 
 [**Picus**](https://uncodegem.com/picus) is a customizable notification system for websites built with vanilla.js. Picus is a lightweight library, taking less than 15KB. Picus is a work in progress, so we will continuously add more functionality, however, you can already use it for your projects.
