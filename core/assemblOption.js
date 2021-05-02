@@ -26,7 +26,7 @@ var removeEmpty = function (obj) {
 };
 var getOptions = function (momentOptions) {
     var initOptions = window ? window.notifyConfigs : {};
-    var resultConfigs = __assign(__assign({ position: 'bottom-right', maxCount: 3, liveTime: 5000 }, initOptions), removeEmpty(momentOptions));
+    var resultConfigs = __assign(__assign({ position: 'bottom-right', maxCount: 3, lifetime: 5000 }, initOptions), removeEmpty(momentOptions));
     return resultConfigs;
 };
 exports.getOptions = getOptions;

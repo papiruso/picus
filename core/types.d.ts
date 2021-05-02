@@ -6,12 +6,12 @@ export interface ContentPosition {
 export interface PushDataType extends ContentPosition {
     position: PositionDataType;
     maxCount: number;
-    liveTime: number;
+    lifetime: number;
 }
 export interface PushOptionType extends ContentPosition {
     position?: PositionDataType;
     maxCount?: number;
-    liveTime?: number;
+    lifetime?: number;
 }
 export interface PushType {
     (arg0: PanVariantType, arg1: string, arg2?: PushOptionType): void;

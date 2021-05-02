@@ -10,7 +10,7 @@ var assemblOption_1 = require("./assemblOption");
 var countController_1 = require("./countController");
 var push = function (type, text, data) {
     var options = assemblOption_1.getOptions(data);
-    var position = options.position, maxCount = options.maxCount, liveTime = options.liveTime;
+    var position = options.position, maxCount = options.maxCount, lifetime = options.lifetime;
     var currentNotifyContentClassName = contstans_1.PAN_BOX_CLASS + "-" + position;
     // Create pan element
     var currentPan = document.createElement('div');
@@ -48,7 +48,7 @@ var push = function (type, text, data) {
         }
     }
     // LiveCycle pan
-    show_1.show(notifyContent, currentPan, className, liveTime);
+    show_1.show(notifyContent, currentPan, className, lifetime);
 };
 exports.push = push;
 //# sourceMappingURL=push.js.map
