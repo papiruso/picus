@@ -1,0 +1,35 @@
+{
+  "name": "picus",
+  "version": "1.0.0",
+  "description": "Customizable notification system for websites built with vanilla js",
+  "main": "core/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uncodegem/picus.git"
+  },
+  "keywords": [
+    "notifications",
+    "react",
+    "javascript",
+    "angular",
+    "typescript",
+    "vue",
+    "vanilla",
+    "reactjs",
+    "ecmascript",
+    "vanilla-javascript",
+    "vanilla-js",
+    "message",
+    "notification",
+    "notify",
+    "vanillajs",
+    "redux"
+  ],
+  "author": "uncodegem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uncodegem/picus/issues"
+  },
+  "homepage": "https://github.com/uncodegem/picus#readme",
+  "dependencies": {}
+}
