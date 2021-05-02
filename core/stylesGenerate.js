@@ -46,7 +46,7 @@ var getContentStyle = function (_a) {
 exports.getContentStyle = getContentStyle;
 var getPanStyle = function (_a) {
     var position = _a.position, className = _a.className, backgroundColor = _a.backgroundColor;
-    return "\n\t<style>\n\t\t." + className + " {\n\t\t\tdisplay: flex;\n\t\t\tborder-radius: 5px;\n\t\t\twidth: 100%;\n\t\t\ttransition: all 0.1s;\n\t\t\talign-items: center;\n\t\t\tpadding: 12px 15px;\n\t\t\tbox-sizing: border-box;\n\t\t\tbackground-color: " + backgroundColor + ";\n\t\t\tcolor: white;\n\t\t\tmargin-top: 15px;\n\t\t\tposition: relative;\n\t\t\tfont-weight: normal;\n\t\t\ttransition: margin-bottom 300ms ease 0ms;\n\t\t}\n\n\t\t" + getAnimationCurrentPosition({ position: position, className: className }) + "\n\t</style>\n";
+    return "\n\t<style>\n\t\t." + className + " {\n\t\t\tdisplay: flex;\n\t\t\tborder-radius: 5px;\n\t\t\twidth: 100%;\n\t\t\ttransition: all 0.1s;\n\t\t\talign-items: center;\n\t\t\tpadding: 12px 15px;\n\t\t\tbox-sizing: border-box;\n\t\t\tbackground-color: " + backgroundColor + ";\n\t\t\tcolor: white;\n\t\t\tword-wrap: break-word;\n\t\t\twhite-space: pre-wrap;\n\t\t\tmargin-top: 15px;\n\t\t\tposition: relative;\n\t\t\tfont-weight: normal;\n\t\t\ttransition: margin-bottom 300ms ease 0ms;\n\t\t}\n\t\t\n\t\t." + className + " svg {\n\t\t\tflex: none;\n\t\t}\n\n\t\t" + getAnimationCurrentPosition({ position: position, className: className }) + "\n\t</style>\n";
 };
 exports.getPanStyle = getPanStyle;
 //# sourceMappingURL=stylesGenerate.js.map

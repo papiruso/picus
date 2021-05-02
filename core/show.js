@@ -19,12 +19,12 @@ var hidePan = function (content, pan, className) {
     }, 1000);
 };
 exports.hidePan = hidePan;
-var show = function (content, pan, className, liveTime) {
+var show = function (content, pan, className, lifetime) {
     // Управление появлением и удалением плашек
     var timer = new timer_1.Timer(function () {
         exports.hidePan(content, pan, className);
     });
-    var time = liveTime;
+    var time = lifetime;
     timer.start(time);
     var startTime = Date.now();
     var currentTime;
