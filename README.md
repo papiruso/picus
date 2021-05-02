@@ -27,7 +27,7 @@ import { push } from 'picus';
 
 push('success', 'Success message', {
     maxCount: 7,
-    liveTime: 5000,
+    lifetime: 5000,
     position: 'bottom-right',
 })
 ```
@@ -38,7 +38,7 @@ import { init } from 'picus';
 
 init({
     maxCount: 7,
-    liveTime: 5000,
+    lifetime: 5000,
     position: 'bottom-right',
 })
 ```
